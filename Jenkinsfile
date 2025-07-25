@@ -6,11 +6,7 @@ pipeline {
   }
 
   stages {
-    stage('Checkout') {
-      steps {
-        git 'https://github.com/Sagarkulkarni-git/jenkins-migration-demo.git'
-      }
-    }
+    
 
     stage('Build') {
       steps {
